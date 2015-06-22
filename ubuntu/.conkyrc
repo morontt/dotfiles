@@ -1,0 +1,26 @@
+alignment bottom_right
+use_xft yes
+update_interval 2
+own_window_argb_visual yes
+own_window_class Conky
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_transparent yes
+own_window_type normal
+own_window yes
+double_buffer yes
+minimum_size 0 150
+maximum_width 580
+default_color white
+default_shade_color black
+default_outline_color black
+gap_x 25
+gap_y 22
+override_utf8_locale yes
+
+color0 EAEAEA
+color1 BEDF3B
+
+TEXT
+${voffset 10}${color0}${font steiner:pixelsize=105}${time %H:%M}${font}${voffset -84}${voffset 10}${offset 10}${color1}${font Taurus:pixelsize=42}${time %d} ${offset -3}${voffset -5}${color0}${font Taurus:pixelsize=22}${time %B} ${time %Y}${font}${voffset 15}${font Taurus:pixelsize=55}${offset -135}${time %A}${font}
+${voffset 30}${offset 12}${font Taurus:pixelsize=14}${color1}SSD ${offset 9}$color${fs_used /home} / ${fs_size /home}${offset 28}${color1}RAM ${offset 9}$color$mem / $memmax${offset 20}${color1}CPU ${offset 9}$color${cpu cpu0}% / ${hwmon 1 temp 1}°C
+

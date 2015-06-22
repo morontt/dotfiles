@@ -1,0 +1,13 @@
+[user]
+	name = username
+	email = mail@example.org
+[core]
+	excludesfile = /path/to/.gitignore_global
+	autocrlf = input
+	editor = nano
+[color]
+	ui = true
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
