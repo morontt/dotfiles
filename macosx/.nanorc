@@ -1,0 +1,5 @@
+# git clone https://github.com/nanorc/nanorc.git
+# cd nanorc
+# make install
+
+include ~/.nano/syntax/ALL.nanorc
