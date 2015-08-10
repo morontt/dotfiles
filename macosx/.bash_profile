@@ -6,7 +6,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home
 source ~/.git-prompt.sh
 
 #color for terminal
-export PS1="\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h \[\033[01;36m\]\w\[\033[33m\]\$(__git_ps1 ' git:(%s)')\n\[\033[01;35m\]\$ \[\033[00m\]"
+export PS1="\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h \[\033[01;36m\]\w\[\033[35m\]\$(__git_ps1 ' git:(%s)')\n\[\033[01;35m\]\$ \[\033[00m\]"
 
 if [ -f ~/.git-completion.bash ]; then
     source ~/.git-completion.bash
