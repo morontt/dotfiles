@@ -5,3 +5,5 @@
 include ~/.nano/syntax/javascript.nanorc
 include ~/.nano/syntax/go.nanorc
 include ~/.nano/syntax/lua.nanorc
+include ~/.nano/syntax/markdown.nanorc
+include ~/.nano/syntax/git.nanorc
