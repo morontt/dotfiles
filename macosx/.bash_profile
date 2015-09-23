@@ -23,5 +23,9 @@ alias apache_restart="sudo /opt/local/apache2/bin/apachectl restart"
 alias mysql_start="sudo /opt/local/share/mysql5/mysql/mysql.server start"
 alias mysql_stop="sudo /opt/local/share/mysql5/mysql/mysql.server stop"
 
+function git-score () {
+    git log | grep Author | sort | uniq -ci | sort -r
+}
+
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
