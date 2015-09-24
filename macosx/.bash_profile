@@ -27,5 +27,9 @@ function git-score () {
     git log | grep Author | sort | uniq -ci | sort -r
 }
 
+function mkcd () {
+	mkdir -p $1 && cd $1
+}
+
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
