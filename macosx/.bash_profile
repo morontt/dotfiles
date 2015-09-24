@@ -28,7 +28,7 @@ function git-score () {
 }
 
 function mkcd () {
-	mkdir -p $1 && cd $1
+    mkdir -p $1 && cd $1
 }
 
 export LC_ALL=en_US.UTF-8
