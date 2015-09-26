@@ -107,6 +107,14 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+function git-score () {
+    git log | grep Author | sort | uniq -ci | sort -nr
+}
+
+function mkcd () {
+    mkdir -p $1 && cd $1
+}
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
