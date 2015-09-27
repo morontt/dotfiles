@@ -129,3 +129,7 @@ fi
 if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
 fi
+
+if [ -f "$HOME/.nvm/nvm.sh" ]; then
+    . $HOME/.nvm/nvm.sh
+fi
