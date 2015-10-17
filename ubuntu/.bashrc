@@ -133,3 +133,6 @@ fi
 if [ -f "$HOME/.nvm/nvm.sh" ]; then
     . $HOME/.nvm/nvm.sh
 fi
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
