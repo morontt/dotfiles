@@ -1,0 +1,20 @@
+"*":
+  editor:
+    tabLength: 4
+    preferredLineLength: 120
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+  core:
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+  "exception-reporting":
+    userId: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  "release-notes":
+    viewedVersion: "0.95.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "0000000000000000000000000000000000000000"
