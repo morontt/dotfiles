@@ -26,3 +26,6 @@ fi
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/go
+
+# IDEA-78860 Keyboard input sometimes is blocked when IBus is active
+export IBUS_ENABLE_SYNC_MODE=1
