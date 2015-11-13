@@ -1,6 +1,7 @@
 {
     "require": {
         "psy/psysh": "^0.6.0",
-        "laravel/installer": "~1.1"
+        "laravel/installer": "~1.1",
+        "kherge/box": "^2.6"
     }
 }
