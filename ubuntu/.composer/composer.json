@@ -1,0 +1,6 @@
+{
+    "require": {
+        "psy/psysh": "^0.6.0",
+        "laravel/installer": "~1.1"
+    }
+}

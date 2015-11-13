@@ -17,13 +17,13 @@ if [ -n "$BASH_VERSION" ]; then
 fi
 
 # set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
+if [ -d "$HOME/bin" ]; then
     PATH="$HOME/bin:$PATH"
 fi
 
 # export CLOJURE_EXT=$HOME/.clojure
 # export PATH=$PATH:/usr/local/go/bin:~/progs/clojure-contrib/launchers/bash
-export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/go/bin:$HOME/.composer/vendor/bin
 export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/go
 
