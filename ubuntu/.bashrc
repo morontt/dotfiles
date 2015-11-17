@@ -92,6 +92,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias apache_restart='sudo service apache2 restart'
 #alias clj="clj-env-dir"
 
 # Add an "alert" alias for long running commands.  Use like so:
