@@ -2,7 +2,7 @@
 	name = username
 	email = mail@example.org
 [core]
-	excludesfile = /path/to/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = input
 	editor = nano
 [color]
