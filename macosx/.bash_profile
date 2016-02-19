@@ -1,7 +1,7 @@
 export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/lib/postgresql93/bin:/usr/local/go/bin:$HOME/bin:$HOME/.composer/vendor/bin:$PATH
 
 export GOPATH=$HOME/gocode
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home
 
 source ~/.git-prompt.sh
 
