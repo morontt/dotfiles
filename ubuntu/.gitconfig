@@ -1,6 +1,6 @@
 [user]
-	name = username
-	email = mail@example.org
+	name = "Alexander Harchenko"
+	email = morontt@gmail.com
 [core]
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
@@ -11,6 +11,6 @@
 	co = checkout
 	br = branch
 	ci = commit
-        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [push]
 	default = current
