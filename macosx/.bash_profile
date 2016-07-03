@@ -1,7 +1,7 @@
-export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/lib/postgresql93/bin:/usr/local/go/bin:$HOME/bin:$HOME/.composer/vendor/bin:$PATH
+export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/lib/postgresql93/bin:/usr/local/go/bin:/opt/local/lib/mysql55/bin:$HOME/bin:$HOME/.composer/vendor/bin:$PATH
 
 export GOPATH=$HOME/gocode
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home
 
 source ~/.git-prompt.sh
 
@@ -20,8 +20,6 @@ alias ll="ls -ahl"
 alias apache_start="sudo /opt/local/apache2/bin/apachectl start"
 alias apache_stop="sudo /opt/local/apache2/bin/apachectl stop"
 alias apache_restart="sudo /opt/local/apache2/bin/apachectl restart"
-alias mysql_start="sudo /opt/local/share/mysql5/mysql/mysql.server start"
-alias mysql_stop="sudo /opt/local/share/mysql5/mysql/mysql.server stop"
 
 function git-score () {
     git log | grep Author | sort | uniq -ci | sort -r
