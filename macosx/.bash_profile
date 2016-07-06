@@ -1,4 +1,4 @@
-export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/lib/postgresql93/bin:/usr/local/go/bin:/opt/local/lib/mysql55/bin:$HOME/bin:$HOME/.composer/vendor/bin:$PATH
+export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/lib/postgresql93/bin:/usr/local/go/bin:/opt/local/lib/mysql56/bin:$HOME/bin:$HOME/.composer/vendor/bin:$PATH
 
 export GOPATH=$HOME/gocode
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home
@@ -16,7 +16,7 @@ if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
 fi
 
-alias ll="ls -ahl"
+alias ll="ls -ahlG"
 alias apache_start="sudo /opt/local/apache2/bin/apachectl start"
 alias apache_stop="sudo /opt/local/apache2/bin/apachectl stop"
 alias apache_restart="sudo /opt/local/apache2/bin/apachectl restart"
@@ -42,3 +42,6 @@ function ubermerge() {
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+export NVM_DIR="/Users/morontt/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
