@@ -115,6 +115,10 @@ function git-score () {
     git log | grep Author | sort | uniq -ci | sort -nr
 }
 
+function line-size () {
+    for file in $(ls -a); do if [ -f $file ]; then echo $(cat $file | wc -l)" "$file; fi done | sort -nr
+}
+
 function mkcd () {
     mkdir -p $1 && cd $1
 }
