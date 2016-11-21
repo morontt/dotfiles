@@ -1,6 +1,6 @@
 {
     "require": {
-        "psy/psysh": "^0.6.0",
+        "psy/psysh": "@stable",
         "laravel/installer": "~1.1",
         "fxp/composer-asset-plugin": "~1.1.1",
         "friendsofphp/php-cs-fixer": "@stable"
