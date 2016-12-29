@@ -11,6 +11,8 @@
 	co = checkout
 	br = branch
 	ci = commit
+	rb = rebase
+	cp = cherry-pick
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [push]
 	default = current
