@@ -111,6 +111,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+if [ -f ~/.work_aliases ]; then
+    . ~/.work_aliases
+fi
+
 function git-score () {
     git log | grep Author | sort | uniq -ci | sort -nr
 }
