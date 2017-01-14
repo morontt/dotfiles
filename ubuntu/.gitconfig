@@ -1,6 +1,7 @@
 [user]
 	name = "Alexander Harchenko"
 	email = morontt@gmail.com
+	signingkey = BCE79440
 [core]
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
