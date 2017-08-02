@@ -12,6 +12,7 @@
 	co = checkout
 	br = branch
 	ci = commit
+	fck = commit --amend --no-edit
 	rb = rebase
 	cp = cherry-pick
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
