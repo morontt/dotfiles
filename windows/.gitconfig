@@ -1,0 +1,21 @@
+[user]
+	name = "Alexander Harchenko"
+	email = morontt@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+	editor = "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+[color]
+	ui = true
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	fck = commit --amend --no-edit
+	rb = rebase
+	cp = cherry-pick
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[push]
+	default = current
+[merge]
+	conflictstyle = diff3
