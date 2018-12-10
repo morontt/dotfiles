@@ -12,7 +12,7 @@
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
     if [ -f "$HOME/.bashrc" ]; then
-	. "$HOME/.bashrc"
+        . "$HOME/.bashrc"
     fi
 fi
 
@@ -23,7 +23,7 @@ fi
 
 # export CLOJURE_EXT=$HOME/.clojure
 # export PATH=$PATH:/usr/local/go/bin:~/progs/clojure-contrib/launchers/bash
-export PATH=$PATH:/usr/local/go/bin:$HOME/.composer/vendor/bin
+export PATH=$PATH:/usr/local/go/bin:$HOME/.config/composer/vendor/bin
 export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/go
 
