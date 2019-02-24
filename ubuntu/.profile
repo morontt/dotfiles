@@ -23,9 +23,9 @@ fi
 
 # export CLOJURE_EXT=$HOME/.clojure
 # export PATH=$PATH:/usr/local/go/bin:~/progs/clojure-contrib/launchers/bash
-export PATH=$PATH:/usr/local/go/bin:$HOME/.config/composer/vendor/bin
 export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/go
+export PATH=$PATH:/usr/local/go/bin:$HOME/.config/composer/vendor/bin:$GOPATH/bin
 
 # IDEA-78860 Keyboard input sometimes is blocked when IBus is active
 export IBUS_ENABLE_SYNC_MODE=1
