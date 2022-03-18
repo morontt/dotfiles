@@ -27,7 +27,9 @@ export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/go
 export NPM_CONFIG_PREFIX=~/.npm-global
 
-export PATH=$PATH:/usr/local/go/bin:$HOME/.config/composer/vendor/bin:$GOPATH/bin:$NPM_CONFIG_PREFIX/bin
+export PATH=$PATH:/usr/local/go/bin:$HOME/.composer/vendor/bin:$GOPATH/bin:$NPM_CONFIG_PREFIX/bin
 
 # IDEA-78860 Keyboard input sometimes is blocked when IBus is active
 export IBUS_ENABLE_SYNC_MODE=1
+
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
