@@ -39,3 +39,4 @@ alias gof="go fmt ./..."
 alias cybervpn="sudo cyberghostvpn --traffic --country-code DE --connect"
 alias cybervpnstatus="sudo cyberghostvpn --status"
 alias cybervpnstop="sudo cyberghostvpn --stop"
+alias uberpush='git push origin --all && git push gitee --all && git push flic --all'
