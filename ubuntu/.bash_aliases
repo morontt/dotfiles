@@ -36,7 +36,6 @@ alias dcst="docker-compose down"
 alias randkeys="for i in {1..24}; do openssl rand -base64 48; done"
 alias wttr="curl http://wttr.in/Kharkov"
 alias gof="go fmt ./..."
-alias cybervpn="sudo cyberghostvpn --traffic --country-code DE --connect"
 alias cybervpnstatus="sudo cyberghostvpn --status"
 alias cybervpnstop="sudo cyberghostvpn --stop"
 alias uberpush='git push origin --all && git push gitee --all && git push flic --all'
