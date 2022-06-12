@@ -25,6 +25,7 @@ fi
 # export PATH=$PATH:/usr/local/go/bin:~/progs/clojure-contrib/launchers/bash
 export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/go
+export GO111MODULE=auto
 export NPM_CONFIG_PREFIX=~/.npm-global
 
 export PATH=$PATH:/usr/local/go/bin:$HOME/.composer/vendor/bin:$GOPATH/bin:$NPM_CONFIG_PREFIX/bin
