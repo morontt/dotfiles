@@ -32,7 +32,11 @@ if [ -d "/usr/local/go/bin" ]; then
     PATH="$PATH:/usr/local/go/bin"
 fi
 
-export PATH=$PATH:$HOME/.composer/vendor/bin:$GOPATH/bin
+if [ -d "$HOME/.config/composer/vendor/bin" ]; then
+    PATH="$PATH:$HOME/.config/composer/vendor/bin"
+fi
+
+export PATH=$PATH:$GOPATH/bin
 
 # IDEA-78860 Keyboard input sometimes is blocked when IBus is active
 export IBUS_ENABLE_SYNC_MODE=1
