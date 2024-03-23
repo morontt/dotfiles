@@ -1,0 +1,4 @@
+theme = "darcula-solid"
+
+[editor]
+auto-pairs = false
