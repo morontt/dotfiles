@@ -139,15 +139,6 @@ function din () {
     docker inspect -f '{{.Name}}: {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -q)
 }
 
-function cybervpn () {
-    CCODE='DE'
-    if [ ! -z $1 ]; then
-        CCODE=$1
-    fi
-
-    sudo cyberghostvpn --traffic --country-code $CCODE --connect
-}
-
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
