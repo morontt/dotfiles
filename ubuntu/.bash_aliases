@@ -39,4 +39,4 @@ alias wttr="curl http://wttr.in/Kharkov"
 alias gof="go fmt ./..."
 alias cybervpnstatus="sudo cyberghostvpn --status"
 alias cybervpnstop="sudo cyberghostvpn --stop"
-alias uberpush='git push origin --all && git push gitee --all && git push flic --all'
+alias uberpush='git push origin --all --no-verify && git push gitee --all --no-verify && git push flic --all --no-verify'

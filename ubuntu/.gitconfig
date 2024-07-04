@@ -1,6 +1,6 @@
 [user]
-	name = "Alexander Harchenko"
-	email = morontt@gmail.com
+	name = "Alexander Kharchenko"
+	email = morontt@yandex.ru
 	signingkey = BCE79440
 [core]
 	excludesfile = ~/.gitignore_global
@@ -20,3 +20,5 @@
 	default = current
 [merge]
 	conflictstyle = diff3
+[pull]
+	rebase = false
