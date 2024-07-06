@@ -1,6 +1,6 @@
 export CLICOLOR=1
 
-alias ll="ls -ahlF"
+alias ll="ls -ahl"
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
@@ -16,9 +16,9 @@ case $TERM in
 esac
 
 if [ "$color_prompt" = yes ]; then
-  setopt PROMPT_SUBST ; PS1=$'%{\e[1;32m%}%n@%m%{\e[00m%} %1~%{\e[1;95m%}$(__git_ps1 " \xE2\x8E\x87  [%s]")%{\e[00m%} %#\n'
+  setopt PROMPT_SUBST ; PS1=$'%{\e[1;32m%}%n@%m%{\e[00m%} %~%{\e[1;95m%}$(__git_ps1 " \xE2\x8E\x87  [%s]")%{\e[00m%} %#\n'
 else
-  setopt PROMPT_SUBST ; PS1=$'%n@%m %1~$(__git_ps1 " \xE2\x8E\x87  [%s]") %#\n'
+  setopt PROMPT_SUBST ; PS1=$'%n@%m %~$(__git_ps1 " \xE2\x8E\x87  [%s]") %#\n'
 fi
 unset color_prompt
 
