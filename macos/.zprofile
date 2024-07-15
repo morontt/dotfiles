@@ -19,4 +19,8 @@ if [ -d "$GOPATH/bin" ]; then
     PATH="$GOPATH/bin:$PATH"
 fi
 
+if [ -d "$HOME/.composer/vendor/bin" ]; then
+    PATH="$PATH:$HOME/.composer/vendor/bin"
+fi
+
 export PATH
