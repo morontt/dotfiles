@@ -6,6 +6,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+if [ -f ~/.work_aliases ]; then
+    . ~/.work_aliases
+fi
+
 if [ -f ~/.git-prompt.sh ]; then
    . ~/.git-prompt.sh
 fi
