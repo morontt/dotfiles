@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "dark",
+    "workbench.startupEditor": "none",
+    "files.autoSave": "onFocusChange",
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": true,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.minimap.enabled": true,
+    "window.titleBarStyle": "native"
+}
