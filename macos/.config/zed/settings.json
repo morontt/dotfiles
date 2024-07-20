@@ -18,6 +18,7 @@
     "dark": "One Dark"
   },
   "show_whitespaces": "all",
+  "autosave": "on_focus_change",
   "git": {
     "inline_blame": {
       "enabled": false
