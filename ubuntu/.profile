@@ -36,6 +36,10 @@ if [ -d "$HOME/.config/composer/vendor/bin" ]; then
     PATH="$PATH:$HOME/.config/composer/vendor/bin"
 fi
 
+if [ -d "$HOME/.local/bin" ]; then
+    PATH="$PATH:$HOME/.local/bin"
+fi
+
 export PATH=$PATH:$GOPATH/bin
 
 # IDEA-78860 Keyboard input sometimes is blocked when IBus is active
