@@ -15,7 +15,7 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Dark",
-    "dark": "One Dark"
+    "dark": "Ayu Dark"
   },
   "show_whitespaces": "all",
   "autosave": "on_focus_change",
@@ -25,3 +25,4 @@
     }
   }
 }
+
