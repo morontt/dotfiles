@@ -10,7 +10,7 @@
   "features": {
     "inline_completion_provider": "none"
   },
-  "ui_font_size": 16,
+  "ui_font_size": 15,
   "buffer_font_size": 16,
   "theme": {
     "mode": "system",
@@ -23,6 +23,13 @@
     "inline_blame": {
       "enabled": false
     }
+  },
+  "languages": {
+    "JSON": {
+      "tab_size": 4
+    },
+    "YAML": {
+      "tab_size": 4
+    }
   }
 }
-
