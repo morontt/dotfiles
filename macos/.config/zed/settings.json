@@ -10,8 +10,6 @@
   "features": {
     "inline_completion_provider": "none"
   },
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
   "theme": {
     "mode": "system",
     "light": "Ayu Dark",
@@ -19,10 +17,18 @@
   },
   "show_whitespaces": "all",
   "autosave": "on_focus_change",
+  "format_on_save": "off",
   "git": {
     "inline_blame": {
       "enabled": false
     }
+  },
+  "languages": {
+    "JSON": {
+      "tab_size": 4
+    },
+    "YAML": {
+      "tab_size": 4
+    }
   }
 }
-
