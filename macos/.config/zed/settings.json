@@ -32,6 +32,7 @@
     }
   },
   "file_types": {
-    "JSON": ["flake.lock", "composer.lock"]
+    "JSON": ["flake.lock", "composer.lock"],
+    "Go Mod": ["go.mod"]
   }
 }
