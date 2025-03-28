@@ -24,7 +24,7 @@ fi
 # export CLOJURE_EXT=$HOME/.clojure
 # export PATH=$PATH:/usr/local/go/bin:~/progs/clojure-contrib/launchers/bash
 export GOPATH=$HOME/gocode
-#export GOROOT=/usr/local/go
+export GOROOT=/snap/go/current
 export GO111MODULE=auto
 export NPM_CONFIG_PREFIX=~/.npm-global
 
@@ -38,6 +38,11 @@ fi
 
 if [ -d "$HOME/.local/bin" ]; then
     PATH="$PATH:$HOME/.local/bin"
+fi
+
+export VOLTA_HOME="$HOME/.volta"
+if [ -d "$VOLTA_HOME/bin" ]; then
+    PATH="$VOLTA_HOME/bin:$PATH"
 fi
 
 export PATH=$PATH:$GOPATH/bin
